@@ -1,44 +1,26 @@
-class News:
+class Source:
     '''
-    News class to define News Objects
+    Source class to define source Objects
     '''
 
-    def __init__(self,id,name,urlToImage):
+    def __init__(self,id,name,description,url,urlToImage):
         self.id =id
         self.name = name
+        self.url = url
         self.urlToImage = str(urlToImage)
 
 
 class Article:
 
-    all_articles = []
-
-    def __init__(self,id,name,urlToImage,author,title,url,publishedAt,content):
+    def __init__(self,id,name,urlToImage,author,title,url,description,publishedAt,content):
         self.id = id
         self.name = name
         self.urlToImage = urlToImage
         self.author = author
         self.title = title
         self.url = url
+        self.description = description
         self.publishedAt = publishedAt
         self.content = content
 
 
- #   def save_review(self):
-     #   Review.all_reviews.append(self)
-
-
-   # @classmethod
-  #  def clear_reviews(cls):
-        Review.all_reviews.clear()
-
-   # @classmethod
- #   def get_reviews(cls,id):
-
-       # response = []
-
-  #      for review in cls.all_reviews:
-       #     if review.movie_id == id:
-          #      response.append(review)
-
-      #  return response
