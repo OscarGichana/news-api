@@ -38,3 +38,13 @@ def general(category):
     return render_template('general.html', general = news_categories_articles)
 
 
+@main.route('/categories/<category>')
+def business(category):
+    '''
+    view root page function that returns the categories page and its data
+    '''
+    news_categories_articles = get_category(category)
+
+    return render_template('business.html', business = news_categories_articles)
+
+
