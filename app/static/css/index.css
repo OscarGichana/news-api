@@ -1,0 +1,19 @@
+.jumbotron-fluid {
+  margin: 5% 0% 0% 0%;
+  background-color: yellow;
+}
+
+.sidepane p {
+    color: #d5dade;
+    padding-left: 1.5em;
+    font-size: 16px;
+}
+
+.sidepane h4 {
+    color: #d5dade;
+    padding-left: 1em;
+}
+
+.whitename {
+  color: #d5dade;
+}

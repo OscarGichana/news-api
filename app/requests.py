@@ -1,5 +1,5 @@
 import urllib.request,json
-from .models import Article, Source
+from models import Article, Source
 
 api_key = None
 source_url= None
