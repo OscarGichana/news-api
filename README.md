@@ -17,7 +17,7 @@ A website where users can stay updated with international news and help them lis
 
 ## Development server
 
-Copy the link https://oscargichana.github.io/gh-api/ in your browser and be updated.
+Copy the link https://ossyknows.herokuapp.com/ in your browser and be updated.
 
 
 ## Build
